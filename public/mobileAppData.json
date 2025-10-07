@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/cS9K8qXj/unnamed.png",
+    "title": "TaskFlow – Manage Tasks  App",
+    "companyName": "Hero.io Labs",
+    "description": "TaskFlow is your ultimate productivity companion designed to simplify daily planning and team coordination. Manage your personal and work tasks, set reminders, assign projects, and collaborate with teammates in real time. With smart notifications, offline mode, and integrated calendar sync, TaskFlow keeps your workflow efficient and distraction-free. The app’s modern UI ensures you stay focused while tracking every detail.",
+    "size": "45 MB",
+    "reviews": 15432,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 9932 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/ZzqpBm5D/images.png",
+    "title": "FitBuddy – Track Workouts",
+    "companyName": "Hero.io Fitness",
+    "description": "FitBuddy helps you take control of your health by tracking workouts, meals, and sleep patterns. Get personalized fitness plans powered by AI and stay consistent with daily progress reminders. Whether you're a gym enthusiast or a beginner, FitBuddy’s adaptive plans and nutritional insights make it easier to stay motivated and healthy every day.",
+    "size": "62 MB",
+    "reviews": 8900,
+    "ratingAvg": 4.8,
+    "downloads": "0.98M",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5040 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/6cFqgbQw/images-1.png",
+    "title": "SoundScape – High-Fidelity Music",
+    "companyName": "Hero.io Music",
+    "description": "SoundScape brings you an immersive audio experience with high-fidelity streaming, curated playlists, and mood-based recommendations. Discover trending artists, podcasts, and personalized mixes powered by advanced recommendation algorithms. Enjoy seamless playback with cloud sync, offline mode, and smart EQ tuning for every genre of music you love.",
+    "size": "75 MB",
+    "reviews": 17400,
+    "ratingAvg": 4.7,
+    "downloads": "2.6M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/DfkZv94p/download.png",
+    "title": "PicVerse – Professional Photo Editing",
+    "companyName": "Hero.io Media",
+    "description": "PicVerse is a next-gen photo editing app that gives you powerful tools to create stunning visuals. From AI background removal to advanced color correction, it offers professional-grade editing right from your phone. Choose from hundreds of filters, add text effects, and share directly to social media with one tap. Designed for creators who want speed and style in one place.",
+    "size": "88 MB",
+    "reviews": 13000,
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7350 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/Hf2LNfKB/unnamed-1.png",
+    "title": "FinTrack – Personal Finance",
+    "companyName": "Hero.io Finance",
+    "description": "FinTrack helps users monitor spending, manage budgets, and grow savings effortlessly. Get AI-generated insights about your financial habits and learn how to optimize monthly expenses. With automatic bill reminders, real-time analytics, and multi-account integration, FinTrack transforms personal finance into an easy, empowering experience.",
+    "size": "53 MB",
+    "reviews": 7800,
+    "ratingAvg": 4.6,
+    "downloads": "0.89M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4880 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/gLdXCKbX/images-1.jpg",
+    "title": "Langly – Learn Languages",
+    "companyName": "Hero.io Learning",
+    "description": "Langly turns language learning into a fun and engaging journey. Practice speaking, listening, and writing in 20+ languages through interactive lessons and games. With real-time pronunciation feedback and community challenges, Langly ensures you gain confidence while improving fluency. Perfect for travelers, students, and professionals alike.",
+    "size": "61 MB",
+    "reviews": 13400,
+    "ratingAvg": 4.9,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 9220 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/4ngwf8Cc/images-2.jpg",
+    "title": "SmartNote – AI Note-Taking",
+    "companyName": "Hero.io Tools",
+    "description": "SmartNote redefines digital note-taking with cloud sync, handwriting recognition, and AI-based summarization. Whether you’re writing class notes, planning meetings, or sketching diagrams, SmartNote adapts to your workflow. All notes are instantly searchable, encrypted, and synced across all your devices seamlessly.",
+    "size": "40 MB",
+    "reviews": 10200,
+    "ratingAvg": 4.7,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5380 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/mF9Tkx8q/images-2.png",
+    "title": "CookMate – Plan Recipes and Cook",
+    "companyName": "Hero.io Kitchen",
+    "description": "CookMate is the smartest recipe and meal-planning app designed to make cooking stress-free and joyful. Browse thousands of recipes, customize ingredient lists, and generate grocery lists automatically. Step-by-step guided cooking and smart timers make it easy to create delicious meals every time.",
+    "size": "67 MB",
+    "reviews": 6500,
+    "ratingAvg": 4.4,
+    "downloads": "0.72M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/S7ftBTyF/1200x630wa.png",
+    "title": "TravelMate – Plan Trips and Discover",
+    "companyName": "Hero.io Travel",
+    "description": "TravelMate helps you plan, organize, and enjoy trips effortlessly. Get personalized itineraries, hotel recommendations, and offline maps. With real-time flight tracking and AI trip suggestions, it ensures your travels are smooth, fun, and worry-free. Perfect for both solo travelers and families.",
+    "size": "70 MB",
+    "reviews": 9100,
+    "ratingAvg": 4.7,
+    "downloads": "1.7M",
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4460 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/DfH2TzKq/images-3.jpg",
+    "title": "MediCall – Connect with Doctors",
+    "companyName": "Hero.io Health",
+    "description": "MediCall connects patients with certified doctors for instant consultations anytime, anywhere. Access prescriptions, health reports, and appointment reminders in one app. Built with end-to-end encryption and 24/7 virtual support, MediCall ensures you get quality healthcare from the comfort of your home.",
+    "size": "55 MB",
+    "reviews": 12000,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/hJnpqnTT/unnamed-2.png",
+    "title": "CodeHub – Developer Workspace",
+    "companyName": "Hero.io DevTools",
+    "description": "CodeHub is the ideal space for developers to explore, share, and collaborate on projects. With built-in Git integration, syntax highlighting, and live code previews, it helps you build and deploy apps faster. CodeHub supports multiple languages and offers version tracking, AI debugging, and a secure cloud workspace to boost your productivity.",
+    "size": "80 MB",
+    "reviews": 8800,
+    "ratingAvg": 4.9,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5600 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/WvSfB6t5/unnamed-3.png",
+    "title": "StudyPlus – AI Flashcards and Personalized Study Plans",
+    "companyName": "Hero.io Education",
+    "description": "StudyPlus provides interactive study materials, AI-powered flashcards, and exam simulators to help students perform their best. It tracks your learning patterns, identifies weak areas, and gives personalized study plans. Whether for school, college, or competitive exams, StudyPlus makes learning efficient and enjoyable.",
+    "size": "59 MB",
+    "reviews": 7500,
+    "ratingAvg": 4.7,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/Q7TpKxdf/unnamed.webp",
+    "title": "Readify – Discover eBooks",
+    "companyName": "Hero.io Books",
+    "description": "Readify brings thousands of eBooks, audiobooks, and personalized reading recommendations to your fingertips. Customize your reading experience with fonts, themes, and offline access. The AI-powered library suggests titles based on your interests, making reading more immersive and inspiring for book lovers everywhere.",
+    "size": "64 MB",
+    "reviews": 9600,
+    "ratingAvg": 4.8,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4830 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/XkfSDyJn/images-4.jpg",
+    "title": "EcoAlert – Track Environmental Issues",
+    "companyName": "Hero.io Environment",
+    "description": "EcoAlert keeps you informed about environmental issues in your area. Get live air quality updates, waste management tips, and sustainability challenges. Earn rewards for eco-friendly actions and join a global movement toward greener living. Perfect for anyone looking to make a difference through small daily actions.",
+    "size": "47 MB",
+    "reviews": 6400,
+    "ratingAvg": 4.6,
+    "downloads": "0.93M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3540 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/TxKLxzP4/download.jpg",
+    "title": "Eventia – Find and Attend Local Events",
+    "companyName": "Hero.io Social",
+    "description": "Eventia makes it simple to discover, plan, and attend events around you. From concerts and workshops to meetups and exhibitions, it connects you with your interests. Buy tickets, get reminders, and network with attendees — all within one sleek and intuitive app.",
+    "size": "71 MB",
+    "reviews": 8800,
+    "ratingAvg": 4.5,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/dJMQx2gF/nav-1-A-1.webp",
+    "title": "HouseWise – Manage Home Tasks and Expenses",
+    "companyName": "Hero.io Living",
+    "description": "HouseWise helps you manage home expenses, cleaning schedules, and repair reminders. It also suggests energy-saving habits and lets you track appliance maintenance history. The smart dashboard and automation tools simplify home management for busy households.",
+    "size": "58 MB",
+    "reviews": 7200,
+    "ratingAvg": 4.4,
+    "downloads": "0.86M",
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3530 }
+    ]
+  },
+   {
+    "id": 17,
+    "image": "https://i.ibb.co.com/pjGfTVhy/unnamed-4.png",
+    "title": "ChatLoop – Secure Messaging with Voice and Video Calls",
+    "companyName": "Hero.io Communication",
+    "description": "ChatLoop is a fast, secure, and intuitive messaging app that supports group chats, voice, and video calls. Enjoy encrypted communication, customizable themes, and file sharing without limits. Designed for both personal and professional use, ChatLoop keeps your connections alive with a smooth and modern chatting experience.",
+    "size": "66 MB",
+    "reviews": 15400,
+    "ratingAvg": 4.8,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 9100 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/N6BFBNY7/images.jpg",
+    "title": "MarketPulse – Real-Time Stock Market and Crypto Insights",
+    "companyName": "Hero.io Business",
+    "description": "MarketPulse gives real-time insights into global stock markets, crypto trends, and business analytics. Set watchlists, track investments, and receive breaking news alerts. Built for traders and professionals who need reliable market data in an elegant and lightning-fast interface.",
+    "size": "72 MB",
+    "reviews": 9100,
+    "ratingAvg": 4.7,
+    "downloads": "1.9M",
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2490 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/tTNMT7wg/images-5.jpg",
+    "title": "MindZen – Meditation and Mindfulness",
+    "companyName": "Hero.io Wellness",
+    "description": "MindZen is a mindfulness and meditation app that helps you stay calm, focused, and balanced. Explore guided sessions for stress relief, better sleep, and improved concentration. With breathing exercises, ambient music, and daily mood tracking, MindZen brings peace to your busy lifestyle.",
+    "size": "52 MB",
+    "reviews": 8700,
+    "ratingAvg": 4.9,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4870 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/67WtpY2T/unnamed-1.webp",
+    "title": "GameHive – Multiplayer Games",
+    "companyName": "Hero.io Gaming",
+    "description": "GameHive brings all your favorite games together in one place. Discover trending titles, compete in leaderboards, and earn achievements across genres. With cloud saves, social profiles, and real-time multiplayer rooms, GameHive is the ultimate gaming hub for players everywhere.",
+    "size": "95 MB",
+    "reviews": 16400,
+    "ratingAvg": 4.8,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  }
+]
