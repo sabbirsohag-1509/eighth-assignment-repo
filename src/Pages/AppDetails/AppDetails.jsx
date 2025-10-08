@@ -1,17 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BiSolidLike } from 'react-icons/bi';
 import { GoStarFill } from 'react-icons/go';
 import { RiDownload2Fill } from 'react-icons/ri';
-import { Link, useLoaderData, useParams } from 'react-router';
+import { Link, useLoaderData, useNavigate, useParams } from 'react-router';
+import Swal from 'sweetalert2';
 
 const AppDetails = () => {
-    const apps = useLoaderData();
-  const { appId } = useParams(); 
-  const appsId = parseInt(appId);
-//   console.log(appId)
-
-  const appDetail = apps.find(app => app.id === appsId);
+        const apps = useLoaderData();
+        const { appId } = useParams(); 
+        const appsId = parseInt(appId);
+        const appDetail = apps.find(app => app.id === appsId);
 //   console.log(appDetail);
+                    // .......... 
+
+  const navigation = useNavigate();
+
+  const [installed, setInstalled] = useState(()=>{
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    return installedApps.some(app => app.id === appDetail.id)
+  });
+
+
+
+  
+
+  const handleInstall = () => {
+
+  const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    // console.log(installedApps)
+  if (!installedApps.find(app => app.id === appDetail.id)) {
+    installedApps.push(appDetail);
+    localStorage.setItem("installedApps", JSON.stringify(installedApps));
+    // alert(`${appDetail.title} installed successfully!`);
+    Swal.fire({
+  title: `${appDetail.title} Installed Successfully!`,
+  icon: "success"
+});
+  } else {
+    // alert(`${appDetail.title} is already installed.`);
+    Swal.fire({
+  icon: "error",
+  title: `${appDetail.title} is already installed.`,
+});
+  }
+
+  setInstalled(true);
+};
+
+
+
+
 
     return (
     <div>
@@ -47,10 +85,17 @@ const AppDetails = () => {
                 </div>
 
                                             {/* install btn  */}
-                <div className='pt-8'> 
-                    <Link> 
-                        <button className='w-full sm:w-auto btn px-8 lg:px-10 bg-green-600 rounded text-lg text-white'>Install Now ({appDetail.size})</button>
+                <div className='flex justify-between pt-8'> 
+                  <div> 
+                      <Link> 
+                        <button onClick={handleInstall} disabled={installed} className='w-full sm:w-auto px-8 py-1.5 lg:px-10 bg-green-600 rounded text-lg text-white cursor-pointer disabled:bg-green-400 disabled:cursor-not-allowed'>{installed?"Installed":`Install Now (${appDetail.size})`}</button>
                     </Link>
+                  </div>
+
+
+                  <div> 
+                    <button onClick={()=> navigation(-1)} className='btn px-7 bg-green-400 rounded text-sm text-white font-bold'> ←Back</button>
+                  </div>
                 </div>
             </div>
        </div>

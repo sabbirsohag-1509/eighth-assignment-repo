@@ -20,7 +20,7 @@ const Navbar = () => {
           >
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/showAllApps">Apps</NavLink></li>
-            <li><NavLink to="">Installation</NavLink></li>
+            <li><NavLink to="/installationApp">Installation</NavLink></li>
           </ul>
         </div>
         
@@ -39,7 +39,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">
           <li className='text-[16px] font-semibold'><NavLink to="/">Home</NavLink></li>
           <li className='text-[16px] font-semibold' ><NavLink to="/showAllApps">Apps</NavLink></li>
-          <li className='text-[16px] font-semibold' ><NavLink to="">Installation</NavLink></li>
+          <li className='text-[16px] font-semibold' ><NavLink to="/installationApp">Installation</NavLink></li>
         </ul>
       </div>
         
