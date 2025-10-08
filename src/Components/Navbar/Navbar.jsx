@@ -18,9 +18,9 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/showAllApps">Apps</NavLink></li>
-            <li><NavLink to="/installationApp">Installation</NavLink></li>
+            <li><NavLink to="/" className={({isActive}) => isActive?"border-b-3 border-[#632EE3] font-bold":"border-b-3 border-transparent"}>Home</NavLink></li>
+            <li><NavLink to="/showAllApps" className={({isActive}) => isActive?"border-b-3 border-[#632EE3] font-bold":"border-b-3 border-transparent"}>Apps</NavLink></li>
+            <li><NavLink to="/installationApp" className={({isActive}) => isActive?"border-b-3 border-[#632EE3] font-bold":"border-b-3 border-transparent"}>Installation</NavLink></li>
           </ul>
         </div>
         
@@ -37,9 +37,11 @@ const Navbar = () => {
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li className='text-[16px] font-semibold'><NavLink to="/">Home</NavLink></li>
-          <li className='text-[16px] font-semibold' ><NavLink to="/showAllApps">Apps</NavLink></li>
-          <li className='text-[16px] font-semibold' ><NavLink to="/installationApp">Installation</NavLink></li>
+          <li className='text-[16px] font-semibold'><NavLink to="/" className={({isActive}) => isActive?"border-b-3 border-[#632EE3] font-bold":"border-b-3 border-transparent"}>Home</NavLink></li>
+
+          <li className='text-[16px] font-semibold' ><NavLink to="/showAllApps" className={({isActive}) => isActive?"border-b-3 border-[#632EE3] font-bold":"border-b-3 border-transparent"}>Apps</NavLink></li>
+
+          <li className='text-[16px] font-semibold' ><NavLink to="/installationApp" className={({isActive}) => isActive?"border-b-3 border-[#632EE3] font-bold":"border-b-3 border-transparent"}>Installation</NavLink></li>
         </ul>
       </div>
         

@@ -21,6 +21,7 @@ const Charts = ({ratings}) => {
     return (
          <ResponsiveContainer width="100%" height={400}>
         <ComposedChart
+        
           layout="vertical"
           width={500}
           height={400}
@@ -34,9 +35,9 @@ const Charts = ({ratings}) => {
         >
           <CartesianGrid stroke="none" />
           <XAxis type="number" />
-          <YAxis dataKey="name" type="category"/> 
+          <YAxis dataKey="name" type="category" reversed/> 
           <Tooltip />
-          <Legend />
+          {/* <Legend /> */}
           {/* <Area dataKey="name" fill="#8884d8" stroke="#8884d8" /> */}
           <Bar dataKey="count" barSize={20} fill="#FF8811" />
           {/* <Line dataKey="count" stroke="#ff7300" /> */}

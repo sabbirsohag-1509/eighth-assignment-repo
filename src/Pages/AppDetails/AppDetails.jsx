@@ -110,6 +110,13 @@ const AppDetails = () => {
                 <Charts ratings={appDetail.ratings}></Charts>
             </div>
 
+                {/* Descriotion  */}
+
+            <div className='max-w-6xl mx-auto'> 
+                <h1 className='text-xl font-bold text-gray-700'>Description:</h1>
+                <p className='pt-2 text-gray-700'>{appDetail.description}</p>
+            </div>
+
 
       </div> 
     );
