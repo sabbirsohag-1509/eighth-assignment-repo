@@ -4,6 +4,7 @@ import { GoStarFill } from 'react-icons/go';
 import { RiDownload2Fill } from 'react-icons/ri';
 import { Link, useLoaderData, useNavigate, useParams } from 'react-router';
 import Swal from 'sweetalert2';
+import Charts from '../Charts/Charts';
 
 const AppDetails = () => {
         const apps = useLoaderData();
@@ -46,8 +47,6 @@ const AppDetails = () => {
 
   setInstalled(true);
 };
-
-
 
 
 
@@ -99,7 +98,19 @@ const AppDetails = () => {
                 </div>
             </div>
        </div>
+
+
+                
+                                    {/* // Recharts Section & Description */}
             
+            <div className='max-w-6xl mx-auto mt-10'> 
+              <div className='pl-10'> 
+              <h1 className='text-xl font-semibold'>Ratings:</h1>
+              </div>
+                <Charts ratings={appDetail.ratings}></Charts>
+            </div>
+
+
       </div> 
     );
 };
