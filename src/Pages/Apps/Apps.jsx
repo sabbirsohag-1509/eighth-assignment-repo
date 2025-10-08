@@ -1,10 +1,12 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import App from '../App/App';
 
 const Apps = () => {
     const appsData = useLoaderData()
     // console.log(appsData)
+
+    const homeApps = appsData.slice(0, 8);
 
     return (
         <div className='max-w-6xl mx-auto mt-5'>
@@ -14,11 +16,13 @@ const Apps = () => {
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-6'> 
                 {
-                    appsData.map(AppData => <App key={AppData.id} AppData={AppData}></App>)
+                    homeApps.map(AppData => <App key={AppData.id} AppData={AppData}></App>)
                 }
             </div>
             <div className='mt-8 text-center'> 
-                <button className='btn px-8 text-xl  bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white rounded-xl '>Show All</button>
+                <Link to='/showAllApps'> 
+                    <button className='btn px-8 text-xl  bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white rounded-xl '>Show All</button>
+                </Link>
             </div>
         </div>
     );

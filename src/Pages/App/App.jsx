@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { GoDownload } from 'react-icons/go';
+import { Link } from 'react-router';
 
 const App = ({AppData}) => {
-    console.log(AppData)
+    // console.log(AppData)
     return (
             <div> 
+                <Link to={`/appDetails/${AppData.id}`}> 
                 <div className="card bg-base-100 w-40 h-44 lg:w-64 lg:h-72 shadow-[0_5px_15px_rgba(0,0,0,0.3)]  p-4 mt-5 hover:scale-105 transition-transform duration-300 ease-in-out">
                 <figure className="px-10 pt-10">
                     <img
@@ -29,6 +31,7 @@ const App = ({AppData}) => {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
     );
 };

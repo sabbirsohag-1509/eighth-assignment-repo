@@ -19,7 +19,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="">Apps</NavLink></li>
+            <li><NavLink to="/showAllApps">Apps</NavLink></li>
             <li><NavLink to="">Installation</NavLink></li>
           </ul>
         </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className='text-[16px] font-semibold'><NavLink to="/">Home</NavLink></li>
-          <li className='text-[16px] font-semibold' ><NavLink to="">Apps</NavLink></li>
+          <li className='text-[16px] font-semibold' ><NavLink to="/showAllApps">Apps</NavLink></li>
           <li className='text-[16px] font-semibold' ><NavLink to="">Installation</NavLink></li>
         </ul>
       </div>
@@ -46,10 +46,10 @@ const Navbar = () => {
         
       <div className="navbar-end relative flex items-center gap-2">
         <div className='absolute right-28 translate-y-0.5'> 
-            <img className='w-4 h-4' src="/github.png" alt="GitHub" />
+            <img className='w-[15px] h-[15px]' src="/github.png" alt="GitHub" />
         </div>
         <a href="https://github.com/sabbirsohag-1509" target="_blank" rel="noopener noreferrer">
-            <div className="btn text-[16px] text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-7">
+            <div className=" text-[16px] text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-2 px-7 pl-10 rounded">
             Contribute
             </div>
         </a>
