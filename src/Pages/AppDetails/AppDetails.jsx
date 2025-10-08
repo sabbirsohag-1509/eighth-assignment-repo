@@ -87,7 +87,7 @@ const AppDetails = () => {
                 <div className='flex justify-between pt-8'> 
                   <div> 
                       <Link> 
-                        <button onClick={handleInstall} disabled={installed} className='w-full sm:w-auto px-8 py-1.5 lg:px-10 bg-green-600 rounded text-lg text-white cursor-pointer disabled:bg-green-400 disabled:cursor-not-allowed'>{installed?"Installed":`Install Now (${appDetail.size})`}</button>
+                        <button onClick={handleInstall} disabled={installed} className='w-full sm:w-auto  px-3 py-1.5 lg:px-10 bg-green-600 rounded text-lg text-white cursor-pointer disabled:bg-green-400 disabled:cursor-not-allowed'>{installed?"Installed":`Install Now (${appDetail.size})`}</button>
                     </Link>
                   </div>
 

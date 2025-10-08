@@ -47,7 +47,7 @@ const Navbar = () => {
         
         
       <div className="navbar-end relative flex items-center gap-2">
-        <div className='absolute right-28 translate-y-0.5'> 
+        <div className='absolute right-27'> 
             <img className='w-[15px] h-[15px]' src="/github.png" alt="GitHub" />
         </div>
         <a href="https://github.com/sabbirsohag-1509" target="_blank" rel="noopener noreferrer">
@@ -55,7 +55,7 @@ const Navbar = () => {
             Contribute
             </div>
         </a>
-</div>
+    </div>
     </div>
   );
 };

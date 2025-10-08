@@ -93,7 +93,7 @@ const handleUninstallBtn = (appId, appTitle) =>{
                 </div>
               </div>
 
-              {/* uninstall btn */}
+              {/* uninsstall btn */}
 
               <button onClick={()=>handleUninstallBtn(app.id, app.title)} className="mt-4 sm:mt-0 px-5 py-2 bg-[#00d390b8] hover:bg-[#00D390] text-white rounded-md text-sm font-semibold transition cursor-pointer btn">
                 Uninstall

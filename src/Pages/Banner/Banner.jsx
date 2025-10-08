@@ -16,14 +16,14 @@ const Banner = () => {
                 <div className=' flex flex-col sm:flex-row gap-5 justify-center items-center py-5'> 
 
                    <a href="https://play.google.com/store/games" target='_blank'> 
-                     <div className='flex gap-2 items-center border border-gray-300 py-2 px-5 cursor-pointer rounded'> 
+                     <div className='flex gap-2 items-center border border-gray-300 py-2 px-5 cursor-pointer rounded  bg-gray-300 hover:bg-gray-400 transition ease-in'> 
                         <img className='w-6 h-7' src={googleplay} alt="Google Play" />
                         <button className='cursor-pointer'>Google Play</button>
                     </div>
                    </a>
 
                    <a href="https://www.apple.com/store" target='_blank'> 
-                     <div className='flex gap-2 items-center border border-gray-300 py-2 px-5 cursor-pointer rounded'> 
+                     <div className='flex gap-2 items-center border border-gray-300 py-2 px-5 cursor-pointer rounded bg-gray-300 hover:bg-gray-400 transition ease-in'> 
                         <img className='w-6 h-7' src={appstore} alt="App Store" />
                         <button className='cursor-pointer'>App Store</button>
                     </div>
