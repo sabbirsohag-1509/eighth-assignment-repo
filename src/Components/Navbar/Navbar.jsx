@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to='/'> 
                 <div className='flex items-center gap-1'> 
                 <img className='w-7 lg:w-10 h-7 lg:h-10' src={logo} alt="Logo" />
-                <span className="btn-ghost text-xl lg:text-2xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">HERO.IO</span> 
+                <span className="btn-ghost text-xl lg:text-2xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold ">HERO.IO</span> 
                 </div>
             </Link>
         </div>

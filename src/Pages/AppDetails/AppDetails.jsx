@@ -5,6 +5,7 @@ import { RiDownload2Fill } from 'react-icons/ri';
 import { Link, useLoaderData, useNavigate, useParams } from 'react-router';
 import Swal from 'sweetalert2';
 import Charts from '../Charts/Charts';
+import error from '../../assets/App-Error.png'
 
 const AppDetails = () => {
         const apps = useLoaderData();
@@ -13,15 +14,28 @@ const AppDetails = () => {
         const appDetail = apps.find(app => app.id === appsId);
 //   console.log(appDetail);
                     // .......... 
+const navigation = useNavigate();
+  
 
-  const navigation = useNavigate();
-
-  const [installed, setInstalled] = useState(()=>{
+  const [installed, setInstalled] = useState(() => {
     const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
-    return installedApps.some(app => app.id === appDetail.id)
+    return appDetail ? installedApps.some(app => app.id === appDetail.id) : false;
   });
 
-
+  if (!appDetail) {
+    return (
+      <div className='mt-10'> 
+          <div className='flex flex-col justify-center items-center'> 
+            <img className='w-32 md:w-44 lg:w-52' src={error} alt="" />
+            <h1 className='text-xl md:text-2xl lg:text-3xl font-bold text-red-700 pt-2'>APP IS NOT FOUND!!</h1>
+            <p className='text-gray-600 pt-2 text-center'>The app You are looking for does not exist or has been removed.</p>
+            <Link to='/'> 
+              <button className='btn mt-2 lg:mt-4 px-3 lg:px-6 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold'> ←Back to Home</button>
+            </Link>
+          </div>
+      </div>
+    );
+  }
 
   
 
