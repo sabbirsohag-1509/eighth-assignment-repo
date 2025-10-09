@@ -7,13 +7,43 @@ const InstallationApp = () => {
 
 
   const [installedApps, setInstalledApps] = useState([]);
+  const [sortOrder, setSortOrder] = useState('none');
 
   useEffect(() => {
     const savedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
     setInstalledApps(savedApps);
   }, []);
 
+
+ const parseDownloads = (value) => {
+    if (!value)
+       return 0;
+    value = value.toUpperCase();
+    if (value.includes('M')) {
+      return parseFloat(value) * 1000000;
+    } else if (value.includes('K')) {
+      return parseFloat(value) * 1000;
+    } else {
+      return parseFloat(value);
+    }
+  };
+
+
+   const sortedItem = () => {
+    if (sortOrder === 'ascending') {
+      return [...installedApps].sort((a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads));
+    } else if (sortOrder === 'descending') {
+      return [...installedApps].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
+    }
+    return installedApps;
+  };
+
+  const displayedApps = sortedItem();
+
+
+
                         // Uninstall App btn function work here 
+
 const handleUninstallBtn = (appId, appTitle) =>{
 
     const updatedUI = installedApps.filter(app => app.id !== appId);
@@ -30,9 +60,8 @@ const handleUninstallBtn = (appId, appTitle) =>{
 
 
 
-
-
   return (
+
     <div className="max-w-6xl mx-auto mt-10 px-3">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
         Your Installed Applications
@@ -45,13 +74,16 @@ const handleUninstallBtn = (appId, appTitle) =>{
         <p className="text-gray-800 font-semibold text-lg underline decoration-2 decoration-[#632EE3]">
           <span className="text-[#632EE3]">({installedApps.length})</span> Apps Found
         </p>
+                      {/* sort-section  */}
 
-        <select defaultValue="Pick a Runtime" className="select select-success">
-          <option disabled>Sort By Size</option>
-          <option>High to Low</option>
-          <option>Low to High</option>
+        <select onChange={(e)=>setSortOrder(e.target.value)} value={sortOrder} className="select select-success w-44 mt-5 md:mt-0 lg:mt-0">
+          <option >Sort By Downloads</option>
+          <option value='descending'>High to Low</option>
+          <option value='ascending'>Low to High</option>
         </select>
       </div>
+
+
       <div className="w-full border-b border-gray-400 mt-4"></div>
 
       {installedApps.length === 0 ? (
@@ -60,7 +92,7 @@ const handleUninstallBtn = (appId, appTitle) =>{
         </p>
       ) : (
         <div className="space-y-4 mt-8">
-          {installedApps.map(app => (
+          {displayedApps.map(app => (
             <div
               key={app.id}
               className="flex flex-col sm:flex-row items-center justify-between bg-gray-200 p-4 rounded-lg shadow-lg w-full"
@@ -104,6 +136,7 @@ const handleUninstallBtn = (appId, appTitle) =>{
       )}
     </div>
   );
+ 
 };
 
 export default InstallationApp;

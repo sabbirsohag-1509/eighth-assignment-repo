@@ -8,6 +8,14 @@ const Root = () => {
 
     return (
         <div>
+
+            {navigation.state === "loading" && (
+                <div className="fixed inset-0 bg-opacity-20 flex items-center justify-center z-50 ">
+                    <h1 className=' text-2xl lg:text-3xl font-bold tracking-[10px] text-[#291260cf]'>L<span className="loading loading-spinner loading-3xl text-2xl lg:text-3xl tracking-[10px]"> </span>ADING....</h1>   
+                </div>
+                )}
+
+
             <Navbar></Navbar>
 
             <Outlet></Outlet>
@@ -15,13 +23,6 @@ const Root = () => {
 
 
             
-
-             {navigation.state === "loading" && (
-                <div className="fixed inset-0 bg-opacity-20 flex items-center justify-center z-50 ">
-                    <h1 className=' text-2xl lg:text-3xl font-bold tracking-[10px] text-[#291260cf]'>L<span className="loading loading-spinner loading-3xl text-2xl lg:text-3xl tracking-[10px]"> </span>ADING....</h1>   
-                </div>
-                )}
-
         </div>
     );
 };

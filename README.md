@@ -1,16 +1,10 @@
-# React + Vite
+**App Name-- HERO.IO Apps Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description-- 
 
-Currently, two official plugins are available:
+Hero.Io  apps store is basically used to for practice, we can change here routing system, in home page we show a some apps & show all btn. When we clicked show all btn then we can show a all apps section. Here every app shown details, when we clicked on app then routing a installation page. Here we can install our app. After Install the app the install btn goes to disabled. And then install app will save another Installation section where we can save our app as localStorage system. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+**Technologies--
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+HTML, CSS, Tailwind, DaisyUI, React Router, React Icons, Sweet Alert, Recharts.
